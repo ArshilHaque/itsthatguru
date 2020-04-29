@@ -1,0 +1,286 @@
+*{
+  font-family: 'Raleway', sans-serif;
+}
+
+html, body {width: auto!important; overflow-x: hidden!important} 
+
+.bg-img{
+    height: 800px; background-image: url(../img/bg.jpg);  background-size:cover; background-position: center center;background-attachment:fixed;
+}
+
+.global{
+  padding: 50px 0px;
+  margin: 0 auto;
+ }
+
+
+.global img{
+  margin: 0 auto;
+  padding-bottom: 20px;
+ }
+
+
+.image img{
+  margin: 0 auto
+}
+
+span {
+    width: 320px;
+    height: 2px;
+    background: #ffbd5f;
+    display: inline-block;
+}
+
+.dp{
+    display: block;
+}
+
+.dp img{
+    margin: 0 auto;
+    margin-top: 50px;
+    display: block;
+}
+
+.Button_box {
+    -webkit-box-shadow: 0px 25px 49px 0px rgba(58, 74, 88, 0.1);
+    box-shadow: 0px 5px 15px 0px rgba(57, 55, 69, 0.48);
+    border-radius: 50px;
+    background: #fff;
+    padding: 45px 0px;
+    margin-top: -100px;
+    z-index: 22;
+    position: relative;
+}
+
+.Button_box_secondary{
+    -webkit-box-shadow: 0px 25px 49px 0px rgba(58, 74, 88, 0.1);
+    box-shadow: 0px 5px 15px 0px rgba(57, 55, 69, 0.48);
+    border-radius: 50px;
+    background: #fff;
+    padding: 45px 0px;
+    margin-top: 15px;
+    z-index: 22;
+    position: relative;
+}
+
+
+
+
+/*.purple{
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  border-color: #5a19a5;
+}*/
+
+
+.box_item{
+  margin: 0 auto;
+}
+.box_item img {
+    margin: 40px auto;
+    /* text-align: center; */
+    vertical-align: center;
+    display: block;
+}
+
+.forex img{
+    padding-top: 5px;
+}
+.crypto img{
+    margin-top: 48px;
+}
+.whatsapp img{
+    margin-top: 60px;
+}
+.project5k img{
+    margin-top: 12px;
+}
+.youtube img{
+    margin-top: 45px;
+}
+.snapchat img{
+    margin-top: 24px;
+}
+.tradewithkez img{
+  margin-top: 18px;
+}
+.abroadcosmetics img{
+    margin-top: 40px;
+}
+.grfdiet img{
+    margin-top: 8px;
+}
+.pawfection img{
+      margin-top: 15px;
+}
+.insta img{
+    margin-top: 8px;
+}
+
+
+h4{
+  color: #40414f;
+  font-weight: 600;
+      margin-top: 20px;
+}
+
+p{
+  color: #797979;
+  text-decoration: none;
+}
+
+.details h1{
+  color: white; font-weight: 700; margin-bottom: -8px;
+}
+
+.details p{
+  color:white; margin-top: 20px; line-height: 20px
+}
+
+.orange:hover {
+    /*border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #eb8a00;*/
+}
+
+.overlayforex {
+  height: 100%;
+  width: 100%;
+  transition: .5s ease;
+  
+}
+
+.overlayforex:hover {
+  opacity: 1;
+  background-color: #eef4f9;
+}
+
+.overlaycrypto {
+  height: 100%;
+  width: 100%;
+  transition: .5s ease;
+  
+}
+
+.overlaycrypto:hover {
+  opacity: 1;
+  background-color: #fffcf3;
+}
+
+.overlayinsta {
+  height: 100%;
+  width: 100%;
+  transition: .5s ease;
+  
+}
+
+.overlayinsta:hover {
+  opacity: 1;
+  background-color: #f5eff4;
+}
+
+.overlaypawf {
+  height: 100%;
+  width: 100%;
+  transition: .5s ease;
+  
+}
+
+.overlaypawf:hover {
+  opacity: 1;
+  background-color: #f5f0ec;
+}
+
+.overlaygrf {
+  height: 100%;
+  width: 100%;
+  transition: .5s ease;
+  
+}
+
+.overlaygrf:hover {
+  opacity: 1;
+  background-color: #eaefe7;
+}
+
+.overlayabroad {
+  height: 100%;
+  width: 100%;
+  transition: .5s ease;
+  
+}
+
+.overlayabroad:hover {
+  opacity: 1;
+  background-color: #f9f9f9;
+}
+
+.overlaytradekez {
+  height: 100%;
+  width: 100%;
+  transition: .5s ease;
+  
+}
+
+.overlaytradekez:hover {
+  opacity: 1;
+  background-color: #f7f7f7;
+}
+
+.overlaysnapchat {
+  height: 100%;
+  width: 100%;
+  transition: .5s ease;
+  
+}
+
+.overlaysnapchat:hover {
+  opacity: 1;
+  background-color: #ffffe4;
+}
+
+
+
+.overlayyoutube {
+  height: 100%;
+  width: 100%;
+  transition: .5s ease;
+  
+}
+
+.overlayyoutube:hover {
+  opacity: 1;
+  background-color: #fff5f5;
+}
+
+
+
+.overlayp5k {
+  height: 100%;
+  width: 100%;
+  transition: .5s ease;
+  
+}
+
+.overlayp5k:hover  {
+  opacity: 1;
+  background-color: #fffcf5;
+}
+
+
+.overlaywhatsapp {
+  height: 100%;
+  width: 100%;
+  transition: .5s ease;
+  
+}
+
+.overlaywhatsapp:hover {
+  opacity: 1;
+  background-color: #f6fff5;
+}
+
+ul li{
+  color: #797979;
+    text-decoration: none;
+}
