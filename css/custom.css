@@ -5,8 +5,15 @@
 html, body {width: auto!important; overflow-x: hidden!important} 
 
 .bg-img{
-    height: 800px; background-image: url(../img/bg.jpg);  background-size:cover; background-position: center center;background-attachment:scroll;
+    height: 800px; background-image: url(../img/bg.jpg);  background-size:cover; background-position: center center;background-attachment:fixed;
 }
+
+ @media (max-width: 600px) {
+ .bg-img{
+        background-attachment: scroll;
+      }
+    }
+
 
 .global{
   padding: 50px 0px;
@@ -285,10 +292,3 @@ ul li{
     text-decoration: none;
 }
 
-@media screen and (max-device-width: 480px){
-    body{
-        -webkit-text-size-adjust:none;
-        font-family:Helvetica, Arial, Verdana, sans-serif;
-        padding:5px;
-    }
-}
