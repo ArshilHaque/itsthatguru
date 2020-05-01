@@ -8,11 +8,38 @@ html, body {width: auto!important; overflow-x: hidden!important}
     height: 800px; background-image: url(../img/bg.jpg);  background-size:cover; background-position: center center;background-attachment:fixed;
 }
 
- @media (max-width: 600px) {
+/*@media (max-width: 600px) {
  .bg-img{
         background-attachment: scroll;
       }
-    }
+    }*/
+
+@media only screen and (min-device-width : 300px) and (max-device-width : 600px)  {
+
+  .bg-img {  
+
+    background: url('../img/bg.jpg') no-repeat top center fixed;
+
+    background-size: cover;
+
+    height: 100%;
+
+    overflow: hidden;
+
+  }
+}
+
+ 
+
+body {  
+
+    height:100%;
+
+    overflow: scroll;
+
+    -webkit-overflow-scrolling: touch;
+
+}}
 
 
 .global{
