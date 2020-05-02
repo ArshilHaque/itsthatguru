@@ -13,13 +13,13 @@ html, body {width: auto!important; overflow-x: hidden!important}
  .bg-img{
         background-attachment: scroll;
       }
-    }
+    }*/
 
 @media only screen and (min-device-width : 300px) and (max-device-width : 600px)  {
 
   .bg-img {  
 
-    background: url('../img/bg.jpg') no-repeat top center fixed;
+    background: url('../img/bg-mobile.jpg') no-repeat top center fixed;
 
     background-size: cover;
 
@@ -30,7 +30,7 @@ html, body {width: auto!important; overflow-x: hidden!important}
 
   }
 }
-
+/*
 body {  
 
     height:100%;
@@ -39,7 +39,8 @@ body {
 
     -webkit-overflow-scrolling: touch;
 
-}}*/
+}}
+
 @media only screen 
 and (max-device-height : 1024px) 
 and (max-device-width : 1024px) {
@@ -47,7 +48,7 @@ and (max-device-width : 1024px) {
     .boldgrid-section.background-fixed {
         background-attachment: scroll !important;
     }
-}
+}*/
 
  
 
