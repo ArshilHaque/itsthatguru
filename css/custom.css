@@ -6,7 +6,6 @@ html, body {width: auto!important; overflow-x: hidden!important}
 
 .bg-img{
     height: 800px; background-image: url(../img/bg.jpg);  background-size:cover; background-position: center center;background-attachment:fixed;
-    padding: 65px 0px;
 }
 
 /*@media (max-width: 600px) {
