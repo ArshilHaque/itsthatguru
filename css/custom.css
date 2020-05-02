@@ -14,11 +14,11 @@ html, body {width: auto!important; overflow-x: hidden!important}
       }
     }*/
 
-@media only screen and (min-device-width : 200px) and (max-device-width : 600px)  {
+@media only screen and (min-device-width : 300px) and (max-device-width : 600px)  {
 
   .bg-img {  
 
-    background: url('../img/bg-mobile.jpg') no-repeat top center scroll;
+    background: url('../img/bg-mobile2.jpg') no-repeat top center fixed !important;
 
     background-size: cover;
 
